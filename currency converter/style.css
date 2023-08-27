@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url(pexels-tim-mossholder-1764702.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    position: absolute;
+    left: 40%;
+    margin-top: 100px;
+
+    padding: 30px;
+
+}
+
+h1 {
+    color: white;
+
+
+}
+
+.d-none {
+    display: none;
+}
+
+.d-flex {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+span {
+    color: #ffff;
+
+}
+
+option {
+    color: black;
+}
+
+.input1 {
+    width: 80px;
+    padding: 10px 0px;
+    background-color: transparent;
+    color: #ffff;
+    border: 1px solid white;
+    text-align: center;
+    box-shadow: -3px 4px 29px 13px rgba(255, 255, 255, 0.52);
+    -webkit-box-shadow: -3px 4px 29px 13px rgba(255, 255, 255, 0.52);
+    -moz-box-shadow: -3px 4px 29px 13px rgba(255, 255, 255, 0.52);
+    font-size: 20px;
+}
+
+select {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #ffff;
+    border: 1px solid white;
+    box-shadow: -3px 4px 29px 13px rgba(255, 255, 255, 0.52);
+    -webkit-box-shadow: -3px 4px 29px 13px rgba(255, 255, 255, 0.52);
+    -moz-box-shadow: -3px 4px 29px 13px rgba(255, 255, 255, 0.52);
+    font-size: 20px;
+
+}
+
+
+
+button {
+    padding: 7px 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #ffff;
+    border: 1px solid #ffff;
+    cursor: pointer;
+    box-shadow: -3px 4px 29px 13px rgba(255, 255, 255, 0.52);
+    -webkit-box-shadow: -3px 4px 29px 13px rgba(255, 255, 255, 0.52);
+    -moz-box-shadow: -3px 4px 29px 13px rgba(255, 255, 255, 0.52);
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #ffff;
+    color: darkcyan;
+}
+
+.input2 {
+
+    margin-top: 20px;
+    padding: 10px 0px;
+    background-color: transparent;
+    color: #ffff;
+    border: 1px solid white;
+    text-align: center;
+    box-shadow: -3px 4px 29px 13px rgba(255, 255, 255, 0.52);
+    -webkit-box-shadow: -3px 4px 29px 13px rgba(255, 255, 255, 0.52);
+    -moz-box-shadow: -3px 4px 29px 13px rgba(255, 255, 255, 0.52);
+
+}
+
+.first-container {
+    text-align: center;
+    position: absolute;
+    left: 25%;
+    top: 40%
+}
+
+h2 {
+    font-size: 3em;
+    color: #ffff;
+    margin-bottom: 20px;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.6);
+}
+
+.firstBtn {
+    padding: 10px 30px;
+    font-size: 30px;
+}
+
+.firstBtn:hover {
+    background-color: #ffff;
+    color: darkcyan;
+    font-size: 25px;
+}

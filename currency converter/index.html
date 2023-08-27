@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="first-container">
+      <h2>DO YOU NEED CURRENCY CONVERTER?</h2>
+      <button class="firstBtn" id="firstBtn">CLICK HERE</button>
+    </div>
+    <div class="container d-none">
+      <img src="currency.png" alt="" />
+      <h1>Currency Converter</h1>
+      <div class="select-container">
+        <div class="d-flex">
+          <select name="currency" id="select1input" class="currency">
+            <option>Select</option>
+          </select>
+          <input type="text" class="input1" id="input_currency" />
+          <span>to</span>
+          <select name="" id="select2input" class="currency">
+            <option>Select</option>
+          </select>
+        </div>
+        <div>
+          <button onclick="converter()" id="button">Convert</button>
+        </div>
+        <div>
+          <input
+            type="text"
+            class="input2"
+            value="result....."
+            id="output_currency"
+            disabled
+          />
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.min.js"
+      integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>
